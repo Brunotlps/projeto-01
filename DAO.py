@@ -19,8 +19,8 @@ class DaoCategoria:
         
         cat = []
 
-        for categoria in cls.categoria:
-            cat.append(Categoria(categoria))
+        for i in cls.categoria:
+            cat.append(Categoria(i))
         
         return cat
 
@@ -55,7 +55,7 @@ class DaoEstoque:
         
         with open('estoque.txt', 'a') as arq:
             arq.writelines(produto.nome + '|' + produto.preco + '|' 
-                           + produto.categoria + '|' + str(quantidade))
+                           + produto.categoria + '|' + str(quantidade)) # type: ignore
             arq.writelines('\n')
     
     @classmethod
