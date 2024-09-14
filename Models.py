@@ -7,8 +7,7 @@ class Categoria:
         self.categoria = categoria
     
 class Produtos:
-    
-    def _init__(self, nome, preco, categoria):
+    def __init__(self, nome, preco, categoria):
         self.nome = nome
         self.preco = preco
         self.categoria = categoria
