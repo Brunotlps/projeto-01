@@ -1,1 +1,1 @@
-banana|5|frutas|10
+maça | 6 | frutas | 10
