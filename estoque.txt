@@ -1,1 +1,3 @@
-maça | 6 | frutas | 10
+laranja|30|frutas|25
+banana|30|frutas|6
+maça|30|frutas|7

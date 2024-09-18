@@ -1,1 +1,4 @@
-maça | 6 | frutas | joao | lucas | 1 | 16/09/2024
+banana | 30 | frutas | vitor | bruno | 3 | 17/09/2024
+banana | 30 | frutas | vitor | bruno | 3 | 17/09/2024
+banana | 30 | frutas | vitor | bruno | 3 | 17/09/2024
+maça | 30 | frutas | vitor | bruno | 3 | 17/09/2024

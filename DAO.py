@@ -41,8 +41,8 @@ class DaoVenda:
         with open('vendas.txt', 'r') as arq:
             cls.venda = arq.readlines()
 
-        cls.venda = list(map(lambda x: x.replace('\n', ''), cls.categoria))
-        cls.venda = list(map(lambda x: x.split('|'), cls.categoria))
+        cls.venda = list(map(lambda x: x.replace('\n', ''), cls.venda))
+        cls.venda = list(map(lambda x: x.split('|'), cls.venda))
 
         vend = []
         for venda in cls.venda:
